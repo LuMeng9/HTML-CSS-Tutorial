@@ -15,7 +15,7 @@
       <div class="col-3 col-s-3 menu">
         <div class="subtitle"><h2>HTML</h2></div>
         <ul title="HTML">
-          <li onclick="showExample('basic')">Basic</li>
+          <li title="basic" onclick="showHTMLExample(this.title)">Basic</li>
           <!-- <li>Elements</li>
           <li>Attributes</li> -->
         </ul>
@@ -29,31 +29,31 @@
 
       <div class="col-6 col-s-9 example">
         <div title="HTML" class="HTML basic">
-          <details title="Basic">
+          <details title="Documents" onclick="about(this.title)">
             <summary>HTML Documents</summary>
             <h1>My First Heading</h1>
             <p>My First Paragraph</p>
           </details>
 
-          <details title="Basic">
+          <details title="Headings" onclick="about(this.title)">
             <summary>HTML Headings</summary>
             <h1>This is heading 1</h1>
             <h2>This is heading 2</h2>
             <h3>This is heading 3</h3>
           </details>
 
-          <details title="Basic">
+          <details title="Paragraphs" onclick="about(this.title)">
             <summary>HTML Paragraphs</summary>
             <p>This is a paragraph.</p>
             <p>This is an other paragraph.</p>
           </details>
 
-          <details title="Basic">
+          <details title="Links" onclick="about(this.title)">
             <summary>HTML Links</summary>
             <a href="https://www.w3schools.com">This is a link</a>
           </details>
 
-          <details title="Basic">
+          <details title="Images" onclick="about(this.title)">
             <summary>HTML Images</summary>
             <img
               src="imgs/smile_monkey.jpg"
@@ -63,12 +63,12 @@
             />
           </details>
 
-          <details title="Basic">
+          <details title="Buttons" onclick="about(this.title)">
             <summary>HTML Buttons</summary>
             <button>Click me</button>
           </details>
 
-          <details title="Basic">
+          <details title="Lists" onclick="about(this.title)">
             <summary>HTML Lists</summary>
             <ul>
               <li>Coffee</li>
@@ -91,7 +91,7 @@
           <pre><p>My First Paragraph</p></pre>
         </div>
 
-        <!-- <div class="aside" title="HTML Headings">
+        <div class="aside" title="HTML Headings">
           <h4>Code detail</h4>
           <pre><h1>This is heading 1</h1></pre>
           <pre><h2>This is heading 2</h2></pre>
@@ -117,7 +117,7 @@
         <div class="aside" title="HTML Buttons">
           <h4>Code detail</h4>
           <pre><button>Click me</button></pre>
-        </div> -->
+        </div>
       </div>
     </div>
 
