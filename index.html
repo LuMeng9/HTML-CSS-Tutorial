@@ -23,6 +23,15 @@
           <li title="attributes" onclick="showHTMLExample(this.title)">
             Attributes
           </li>
+          <li title="heading" onclick="showHTMLExample(this.title)">
+            Headings
+          </li>
+          <li title="styles" onclick="showHTMLExample(this.title)">
+            Styles
+          </li>
+          <li title="formatting" onclick="showHTMLExample(this.title)">
+            Formatting
+          </li>
         </ul>
         <!-- <div class="subtitle"><h2>CSS</h2></div>
           <ul title="CSS">
@@ -118,10 +127,75 @@
             <summary>The style Attributes</summary>
             <p style="color: red;">This is red text</p></details
           >
-          <!-- Attributes/lang Example -->
-          <details title="lang" onclick="about(this.title)">
-            <summary>The lang Attributes</summary>
-            <p style="color: red;">This is red text</p>
+          <!-- Attributes/title Example -->
+          <details title="title" onclick="about(this.title)">
+            <summary>The title Attributes</summary>
+            <p title="I'm a tooltip">This is a paragraph.</p>
+          </details>
+        </div>
+        <!-- HTML Headings -->
+        <div title="HTML" class="HTML headings">
+          <!-- Headings/headings Example -->
+          <details title="headings" onclick="about(this.title)">
+            <summary>The headings</summary>
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+          </details>
+          <!-- Headings/Horizontal Rules Example -->
+          <details title="horizontal rule" onclick="about(this.title)">
+            <summary>Horizontal Rules</summary>
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <hr />
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <hr />
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+            <hr />
+          </details>
+        </div>
+        <!-- HTML Styles -->
+        <div title="HTML" class="HTML styles">
+          <!-- Styles/Bacground Color & Text Color Example -->
+          <details title="Bacground-Color" onclick="about(this.title)">
+            <summary>Bacground Color & Text Color</summary>
+            <div style="background-color: blue; color: white;">
+              Here is a div block with bule background and white text.
+            </div>
+          </details>
+          <!-- Styles/Fonts Example -->
+          <details title="Fonts" onclick="about(this.title)">
+            <summary>Fonts</summary>
+            <h2 style="font-family: courier;">This is h2 content.</h2>
+            <p style="font-family: verdana;">This is a p content.</p>
+          </details>
+          <!-- Styles/Text Size Example -->
+          <details title="Text-Size" onclick="about(this.title)">
+            <summary>Text Size</summary>
+            <h2 style="font-size: 100%;">This is h2 content.</h2>
+            <h2 style="font-size: 200%;">This is bigger h2 content.</h2>
+            <p style="font-size: 200%;">This is a p content.</p>
+          </details>
+          <!-- Styles/Text align Example -->
+          <details title="Text-Align" onclick="about(this.title)">
+            <summary>Text Align</summary>
+            <h2 style="text-align: center;">This is h2 content.</h2>
+            <h2 style="text-align: left;">This is bigger h2 content.</h2>
+            <p style="text-align: right;">This is a p content.</p>
+          </details>
+        </div>
+        <!-- HTML Formatting -->
+        <div title="HTML" class="HTML formatting">
+          <!-- Formatting/emphasized text Example -->
+          <details title="Emphasized-text" onclick="about(this.title)">
+            <summary>Emphasized Text</summary>
+            <h3>This is normal h3 content</h3>
+            <h3><em>This is emphasized h3 content</em></h3>
           </details>
         </div>
       </div>
