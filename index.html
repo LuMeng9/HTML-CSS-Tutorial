@@ -32,6 +32,12 @@
           <li title="formatting" onclick="showHTMLExample(this.title)">
             Formatting
           </li>
+          <li title="quotation" onclick="showHTMLExample(this.title)">
+            Quotation
+          </li>
+          <li title="colors" onclick="showHTMLExample(this.title)">
+            Quotation
+          </li>
         </ul>
         <!-- <div class="subtitle"><h2>CSS</h2></div>
           <ul title="CSS">
@@ -223,6 +229,45 @@
             <p>This is <sub>subscripted</sub> text.</p>
             <p>This is <sup>superscripted</sup> text.</p>
           </details>
+        </div>
+        <!-- HTML Quotation -->
+        <div title="HTML" class="HTML quotation">
+          <!-- Quotation Example -->
+          <details title="Quotation" onclick="about(this.title)">
+            <summary>Quotation</summary>
+            <p>
+              WWF's goal is to:
+              <q>Build a future where people live in harmony with nature</q>
+            </p>
+            <p>Here is a quote from WWF's website:</p>
+            <blockquote cite="http://www.worldwildlife.org/who/index.html">
+              For 50 years, WWF has been protecting the future of nature. The
+              world's leading conservation organization, WWF works in 100
+              countries and is supported by 1.2 million members in the United
+              States and close to 5 million globally.
+            </blockquote>
+
+            <p>
+              This is <cite>Cite</cite> example. <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+            </p>
+          </details>
+        </div>
+        <!-- HTML Colors -->
+        <div title="HTML" class="HTML colors">
+          <!-- Text color Example -->
+          <details title="text-color" onclick="about(this.title)">
+            <summary>Text Color</summary>
+            <p style="color: red;">This text's color is red.</p>
+            <p style="color: tomato;">This text's color is tomato.</p>
+            <p style="color: blue;">This text's color is blue.</p>
+          </details>
+          <!-- Border color Example -->
+          <details title="border-color" onclick="about(this.title)">
+              <summary>Border Color</summary>
+              <div style="border: 1px solid yellow;">This border's color is yellow.</div>
+              <div style="border: 1px solid green;">This border's color is green.</div>
+              <div style="border: 1px solid pink;">This border's color is pink.</div>
+            </details>
         </div>
       </div>
 
